@@ -1,0 +1,92 @@
+body{
+
+  background-color: black;
+
+}
+
+p, h2, h3{
+
+  color: white;
+
+}
+
+h1{
+
+  font-size: 5em;
+
+  text-align: center;
+
+  color: white;
+
+
+}
+
+h3{
+
+  font-size: 3em;
+
+  text-align: center;
+
+}
+
+
+
+p{
+
+  font-size: 1.25em;
+
+}
+
+header{
+
+  background-color: #6593FF;
+
+}
+
+.menu{
+
+  background-color: #89ACFF;
+
+}
+
+.card {
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  }
+
+
+.wP {
+  border: 4px solid white;
+  border-radius: 60px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin:5px 10px;
+  padding:9px;
+}
+
+
+
+.card .content {
+
+margin-bottom: auto;
+
+}
+
+@media screen and (min-width: 48em) {
+    article {
+      display: grid;
+      grid-template-columns: 2fr 2fr;
+      column-gap: 20px;
+    }
+
+@media screen and (min-width: 64em) {
+    article {
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+
+  }
+}  
